@@ -2,13 +2,15 @@
 
 Un kit de interfaz de usuario artístico construido con Tailwind CSS.
 
+```mermaid
 graph LR
-    A[Inicio] --> B[Revisión]
-    B --> C{¿Condición?}
+    A[Inicio] --> B[Proceso]
+    B --> C[Decisión]
     C -- Sí --> D[Acción 1]
     C -- No --> E[Acción 2]
     D --> F[Fin]
     E --> F[Fin]
+```
 
 
 ## Características
