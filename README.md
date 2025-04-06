@@ -2,6 +2,15 @@
 
 Un kit de interfaz de usuario artístico construido con Tailwind CSS.
 
+graph LR
+    A[Inicio] --> B[Revisión]
+    B --> C{¿Condición?}
+    C -- Sí --> D[Acción 1]
+    C -- No --> E[Acción 2]
+    D --> F[Fin]
+    E --> F[Fin]
+
+
 ## Características
 
 - Componentes modernos y elegantes
